@@ -1,8 +1,5 @@
-CREATE TABLE accounts(
-    acc_id TEXT,
-    acc_name TEXT,
-    acc_user TEXT
-);
+ALTER TABLE transactions
+ADD COLUMN was_succesful BOOLEAN;
 
-
-
+ALTER TABLE transactions
+ADD COLUMN transcation_type TEXT;
