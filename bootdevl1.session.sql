@@ -1,5 +1,5 @@
 ALTER TABLE transactions
-ADD COLUMN was_succesful BOOLEAN;
-
+DROP COLUMN was_succesful;
+  
 ALTER TABLE transactions
-ADD COLUMN transcation_type TEXT;
+DROP COLUMN transcation_type;
